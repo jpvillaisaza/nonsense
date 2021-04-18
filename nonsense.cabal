@@ -16,3 +16,13 @@ library
       src
   exposed-modules:
       Nonsense
+
+executable nonsense
+  import:
+      common
+  hs-source-dirs:
+      app
+  main-is:
+      Main.hs
+  build-depends:
+      nonsense
